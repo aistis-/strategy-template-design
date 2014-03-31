@@ -4,8 +4,8 @@ public class Calculator {
 
 	public static void main(String[] args) {
 
-		Operation sum = new Sum();
-		Operation multiply = new Multiply();
+		Sum sum = new Sum();
+		Multiply multiply = new Multiply();
 		
 		operate(sum, 2, 5);
 		operate(multiply, 2, 5);
