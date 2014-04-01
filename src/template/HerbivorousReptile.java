@@ -7,7 +7,7 @@ public class HerbivorousReptile extends Reptile {
 	}
 
 	public int foodComsuptions() {
-		return 8;
+		return 3;
 	}
 
 	public String getFood() {
