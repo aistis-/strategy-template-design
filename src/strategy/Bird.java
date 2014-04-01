@@ -1,43 +1,33 @@
 package strategy;
 
-public class Bird implements Animal {
+public class Bird {
 	
 	String name;
 	boolean alive;
-	
-	public Bird(String name) {
+	Rapacity rapacity;
+
+	public Bird(String name, Rapacity rapacity) {
 		this.name = name;
 		this.alive = true;
+		this.rapacity = rapacity;
 	}
 	
 	public void printStatus() {
 		if (this.alive) {
-			System.out.println(getEatingHabits() + " " + name + " is alive, he found some " + getFood());
+			System.out.println(rapacity.getEatingHabits() + " " + name + " is alive, he found some " + rapacity.getFood());
 		} else {
-			System.out.println(getEatingHabits() + " " + name + " is dead, because he didn't found enough " + getFood());
+			System.out.println(rapacity.getEatingHabits() + " " + name + " is dead, because he didn't found enough " + rapacity.getFood());
 		}
 	}
 	
 	public int eat(int food) {
-		if (food < foodComsuptions()) {
+		if (food < rapacity.foodComsuptions()) {
 			alive = false;
 		}
 		
 		printStatus();
 		
-		return food - foodComsuptions();
-	}
-	
-	public int foodComsuptions() {
-		return 3;
-	}
-
-	public String getFood() {
-		return "herbals";
-	}
-
-	public String getEatingHabits() {
-		return "Herbivorous";
+		return food - rapacity.foodComsuptions();
 	}
 	
 	public boolean getAlive() {

@@ -27,10 +27,10 @@ public class Jungle {
 			meat = eagle.getEat(meat);
 			meat = tigger.getEat(meat);
 			
-			if (!parrot.alive || !eagle.alive || turtle.lives == 0 || tigger.lives == 0) {
-				break;
-			} else {
+			if (parrot.getAlive() && eagle.getAlive() && turtle.getAlive() && tigger.getAlive()) {
 				System.out.println();
+			} else {
+				break;
 			}
 		}
 	}

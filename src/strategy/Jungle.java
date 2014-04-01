@@ -5,11 +5,11 @@ public class Jungle {
 	int herbals;
 	int meat;
 	
-	Animal parrot = new Bird("parrot");
-	Animal eagle = new Bird("eagle");
+	Bird parrot = new Bird("parrot", new Herbivorous());
+	Bird eagle = new Bird("eagle", new Predatory());
 	
-	Animal turtle = new Reptile("turtle");
-	Animal tigger = new Reptile("tigger");
+	Reptile turtle = new Reptile("turtle", new Herbivorous());
+	Reptile tigger = new Reptile("tigger", new Predatory());
 	
 	public Jungle(int herbals, int meat) {
 		this.herbals = herbals;
@@ -27,10 +27,10 @@ public class Jungle {
 			meat = eagle.eat(meat);
 			meat = tigger.eat(meat);
 			
-			if (parrot.getAlive() || eagle.getAlive() || turtle.getAlive() || tigger.getAlive()) {
-				break;
-			} else {
+			if (parrot.getAlive() && eagle.getAlive() && turtle.getAlive() && tigger.getAlive()) {
 				System.out.println();
+			} else {
+				break;
 			}
 		}
 	}

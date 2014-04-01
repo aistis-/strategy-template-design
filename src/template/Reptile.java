@@ -28,6 +28,10 @@ public abstract class Reptile {
 		return food - foodComsuptions() < 0 ? 0 : food - foodComsuptions();
 	}
 	
+	public boolean getAlive() {
+		return lives > 0;
+	}
+	
 	public abstract int foodComsuptions();
 	
 	public abstract String getFood();

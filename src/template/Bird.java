@@ -28,6 +28,10 @@ public abstract class Bird {
 		return food - foodComsuptions();
 	}
 	
+	public boolean getAlive() {
+		return alive;
+	}
+	
 	public abstract int foodComsuptions();
 	
 	public abstract String getFood();
