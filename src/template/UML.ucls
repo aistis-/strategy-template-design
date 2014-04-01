@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="template.Reptile" project="strategy-template-design" 
-    file="/strategy-template-design/src/template/Reptile.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="strategy.Reptile" project="strategy-template-design" 
+    file="/strategy-template-design/src/strategy/Reptile.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="219" y="311"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="template.HerbivorousBird" project="strategy-template-design" 
-    file="/strategy-template-design/src/template/HerbivorousBird.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="strategy.HerbivorousBird" project="strategy-template-design" 
+    file="/strategy-template-design/src/strategy/HerbivorousBird.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="622" y="538"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="template.Bird" project="strategy-template-design" 
-    file="/strategy-template-design/src/template/Bird.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="strategy.Bird" project="strategy-template-design" 
+    file="/strategy-template-design/src/strategy/Bird.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="710" y="313"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="template.Jungle" project="strategy-template-design" 
-    file="/strategy-template-design/src/template/Jungle.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="strategy.Jungle" project="strategy-template-design" 
+    file="/strategy-template-design/src/strategy/Jungle.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="465" y="312"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="template.HerbivorousReptile" project="strategy-template-design" 
-    file="/strategy-template-design/src/template/HerbivorousReptile.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="strategy.HerbivorousReptile" project="strategy-template-design" 
+    file="/strategy-template-design/src/strategy/HerbivorousReptile.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="106" y="541"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
@@ -46,8 +46,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="template.PredatoryReptile" project="strategy-template-design" 
-    file="/strategy-template-design/src/template/PredatoryReptile.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="strategy.PredatoryReptile" project="strategy-template-design" 
+    file="/strategy-template-design/src/strategy/PredatoryReptile.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="350" y="540"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
@@ -55,8 +55,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="template.PredatoryBird" project="strategy-template-design" 
-    file="/strategy-template-design/src/template/PredatoryBird.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="strategy.PredatoryBird" project="strategy-template-design" 
+    file="/strategy-template-design/src/strategy/PredatoryBird.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="817" y="537"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      

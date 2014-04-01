@@ -1,4 +1,4 @@
-package strategy;
+package template;
 
 public class HerbivorousBird extends Bird {
 

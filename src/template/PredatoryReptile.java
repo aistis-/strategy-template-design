@@ -1,13 +1,13 @@
-package strategy;
+package template;
 
-public class PredatoryBird extends Bird {
+public class PredatoryReptile extends Reptile {
 
-	public PredatoryBird(String name) {
+	public PredatoryReptile(String name) {
 		super(name);
 	}
 
 	public int foodComsuptions() {
-		return 2;
+		return 6;
 	}
 
 	public String getFood() {
@@ -17,5 +17,5 @@ public class PredatoryBird extends Bird {
 	public String getEatingHabits() {
 		return "Predatory";
 	}
-
+	
 }
