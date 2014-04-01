@@ -5,17 +5,18 @@ public class Jungle {
 	int herbals;
 	int meat;
 	
+	Bird parrot = new HerbivorousBird("parrot");
+	Bird eagle = new PredatoryBird("eagle");
+	
+	Reptile turtle = new HerbivorousReptile("turtle");
+	Reptile tigger = new PredatoryReptile("tigger");
+	
 	public Jungle(int herbals, int meat) {
 		this.herbals = herbals;
 		this.meat = meat;
 	}
 
 	public void run() {
-		Bird parrot = new HerbivorousBird("parrot");
-		Bird eagle = new PredatoryBird("eagle");
-		
-		Reptile turtle = new HerbivorousReptile("turtle");
-		Reptile tigger = new PredatoryReptile("tigger");
 		
 		while (true) {
 			System.out.println("Herbals: " + herbals);
