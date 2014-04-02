@@ -22,10 +22,10 @@ public class Jungle {
 			System.out.println("Herbals: " + herbals);
 			System.out.println("Meat: " + meat);
 			
-			herbals = parrot.getEat(herbals);
-			herbals = turtle.getEat(herbals);
-			meat = eagle.getEat(meat);
-			meat = tigger.getEat(meat);
+			herbals = parrot.eat(herbals);
+			herbals = turtle.eat(herbals);
+			meat = eagle.eat(meat);
+			meat = tigger.eat(meat);
 			
 			if (parrot.getAlive() && eagle.getAlive() && turtle.getAlive() && tigger.getAlive()) {
 				System.out.println();

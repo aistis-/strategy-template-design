@@ -18,7 +18,7 @@ public abstract class Reptile {
 		}
 	}
 	
-	public int getEat(int food) {
+	public int eat(int food) {
 		if (food < foodComsuptions()) {
 			lives--;
 		}

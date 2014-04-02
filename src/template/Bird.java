@@ -18,7 +18,7 @@ public abstract class Bird {
 		}
 	}
 	
-	public int getEat(int food) {
+	public int eat(int food) {
 		if (food < foodComsuptions()) {
 			alive = false;
 		}
