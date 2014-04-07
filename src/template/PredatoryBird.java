@@ -1,21 +1,25 @@
 package template;
 
 public class PredatoryBird extends Bird {
+	
+	private Rapacity rapacity;
 
 	public PredatoryBird(String name) {
 		super(name);
+		
+		rapacity = new Rapacity(true);
 	}
 
 	public int foodComsuptions() {
-		return 2;
+		return rapacity.foodComsuptions();
 	}
 
 	public String getFood() {
-		return "meat";
+		return rapacity.getFood();
 	}
 
 	public String getEatingHabits() {
-		return "Predatory";
+		return rapacity.getEatingHabits();
 	}
 
 }
